@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="00:00:00"
+        android:textSize="24pt"
+        android:layout_gravity="center"
+        android:id="@+id/txtTime"
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:onClick="btnStartOnClick"
+        android:id="@+id/btnStart"
+        android:text="Start"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:onClick="btnStopOnClick"
+        android:id="@+id/btnStop"
+        android:text="Stop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnReset"
+        android:layout_gravity="center"
+        android:onClick="btnResetOnClick"
+        android:layout_height="wrap_content"
+        android:text="Reset"/>
+
+</LinearLayout>
